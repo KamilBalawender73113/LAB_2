@@ -1,4 +1,4 @@
-bramki=float(input("Podaj liczbę strzelonych bramek przez drużyne: "))
+bramki=int(input("Podaj liczbę strzelonych bramek przez drużyne: "))
 bonus= bramki * 10 #każdy gol jest liczony jako 10 punktów
 if bramki>10:
     bonus= bonus + 10 #za strzelenie 10 goli przyznaje się 10 dodatkowych punktów
