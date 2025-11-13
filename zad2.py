@@ -5,7 +5,7 @@ z = float(input("Podaj liczbę z:"))
 def zad2(x,y,z):
     if x>=y and x >=z:
         if y>=z:
-            print(z,y,a)
+            print(z,y,x)
         else:
             print(y,z,x)
     elif y>=x and y >=z:
