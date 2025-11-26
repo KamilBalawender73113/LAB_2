@@ -8,7 +8,7 @@ def zad2(x,y,z):
             print(z,y,x)
         else:
             print(y,z,x)
-    elif y>=x and y >=z:
+    elif y>=x and y>=z:
         if z>=x:
             print(x,z,y)
         else:
